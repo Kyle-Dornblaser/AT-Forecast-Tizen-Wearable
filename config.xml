@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://www.atforecast.com/ATForecast" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="cYukLcyzmk.ATForecast" package="cYukLcyzmk" required_version="2.3.2"/>
+    <author href="https://www.kyledornblaser.com" email="kdornblaser@gmail.com">Kyle Dornblaser</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="icon.png"/>
+    <name>AT Forecast</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting hwkey-event="enable"/>
+</widget>
