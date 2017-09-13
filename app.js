@@ -130,16 +130,20 @@
 	
 	var states = new app.States();
 	var statesView = new app.StatesView({model: states});
-	
-	
+		
 	states.fetch();
 	
-	//var shelter = new app.Shelter(5);
-	//var shelterView = new app.ShelterView({model: shelter});
-	//shelter.fetch();
+	document.addEventListener('rotarydetent', function(ev) {
+		var direction = ev.detail.direction;
+		var scroller = $('.ui-page-active .ui-scroller');
+		var y = scroller.scrollTop();
+		var step = 50;
+		
+		if (direction === 'CW') {
+			scroller.scrollTop(y+step);
+		} else {
+			scroller.scrollTop(y-step);
+		}
+	});
 	
-	
-	
-
-
 }());

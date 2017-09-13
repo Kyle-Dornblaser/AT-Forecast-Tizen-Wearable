@@ -7,6 +7,9 @@
     <icon src="icon.png"/>
     <name>AT Forecast</name>
     <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
     <tizen:profile name="wearable"/>
     <tizen:setting hwkey-event="enable"/>
+    <tizen:allow-navigation>https://dev.atforecast.com</tizen:allow-navigation>
+    <access origin="*" subdomains="true"></access>
 </widget>
