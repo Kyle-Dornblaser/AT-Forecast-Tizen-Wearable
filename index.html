@@ -10,14 +10,28 @@
 </head>
 <body>
 	<div class="ui-page ui-page-active" id="main">
-		<header class="ui-header">
-			<h2 class="ui-title">TAU Basic</h2>
-		</header>
 		<div class="ui-content content-padding">
-			<p>Hello! </p>
+			<ul id="states"></ul>
 		</div>
 	</div>
+    <div class="ui-page" id="shelters-page">
+        <div class="ui-content content-padding">
+            <ul id="shelters">
+            </ul>
+        </div>
+    </div>
+    <div class="ui-page" id="shelter-page">
+        <div class="ui-content content-padding">
+            <div id="shelter">
+            </div>
+        </div>
+    </div>
 	<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
+	<script src="lib/jquery-3.2.1.min.js"></script>
+	<script src="lib/json2.js"></script>
+	<script src="lib/underscore-min.js"></script>
+    <script src="lib/backbone-min.js"></script>
+	<script src="config.js"></script>
 	<script src="app.js"></script>
 	<script src="lowBatteryCheck.js"></script>
 </body>
