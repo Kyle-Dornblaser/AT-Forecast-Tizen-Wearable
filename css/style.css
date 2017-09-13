@@ -27,3 +27,8 @@ body {
 	font-size:5em;
 	color:#fff;
 }
+
+.ui-listview li{
+    white-space: normal !important;
+ 
+}
